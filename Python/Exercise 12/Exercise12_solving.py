@@ -18,3 +18,30 @@ a = np.zeros((4,5,3))
 print(a)
 
 print(a.shape)
+
+# Exercise 2
+
+
+
+
+#Exercise 3
+
+arr= np.array([[10,20,30,40],
+               [50,60,70,80]
+               ])
+
+print(arr[1,0])
+
+
+#Exercise 4
+
+arr= np.array([[10,20,30,40],
+               [50,60,70,80]
+               ])
+print(arr.dtype)
+
+arr_changedtype= np.array([[10,20,30,40],
+               [50,60,70,80]
+               ],dtype=float)
+
+print(arr_changedtype.dtype)
